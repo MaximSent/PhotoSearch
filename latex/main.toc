@@ -1,0 +1,46 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Анализ предметной области}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Описание предметной области}{4}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Исторический контекст и эволюция визуального контента}{5}{subsubsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.2}Технологии машинного обучения в контекстном поиске и рекомендации изображений}{7}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Существующие решения}{8}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Техническое задание}{10}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Основание для разработки}{10}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Назначение разработки}{10}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Требования к веб-сервису}{11}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Требования к данным веб-сервиса}{11}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Функциональные требования к веб-сервису}{12}{subsubsection.2.3.2}%
+\contentsline {paragraph}{\numberline {2.3.2.1}Вариант использования «Поиск фотографий по запросу»}{13}{paragraph.2.3.2.1}%
+\contentsline {paragraph}{\numberline {2.3.2.2}Вариант использования «Добавление новой фотографии»}{14}{paragraph.2.3.2.2}%
+\contentsline {paragraph}{\numberline {2.3.2.3}Вариант использования «Просмотр фотографии»}{14}{paragraph.2.3.2.3}%
+\contentsline {paragraph}{\numberline {2.3.2.4}Вариант использования «Скачивание выбранного фото»}{14}{paragraph.2.3.2.4}%
+\contentsline {paragraph}{\numberline {2.3.2.5}Вариант использования «Поиск фото по фотографии»}{15}{paragraph.2.3.2.5}%
+\contentsline {paragraph}{\numberline {2.3.2.6}Вариант использования «Выдача похожих фотографий»}{15}{paragraph.2.3.2.6}%
+\contentsline {subsubsection}{\numberline {2.3.3}Требования пользователя к интерфейсу веб-сервиса}{16}{subsubsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.4}Нефункциональные требования к программной системе}{17}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Требования к архитектуре}{17}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Требования к надежности}{17}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Требования к программному обеспечению}{17}{subsubsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.4}Требования к аппаратному обеспечению}{17}{subsubsection.2.4.4}%
+\contentsline {subsubsection}{\numberline {2.4.5}Требования к оформлению документации}{18}{subsubsection.2.4.5}%
+\contentsline {section}{\numberline {3}Технический проект}{19}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Общие сведения о программной системе}{19}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Проектирование архитектуры программной системы}{19}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Выбор архитектурного стиля и паттернов проектирования}{19}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Используемые базы данных}{21}{subsubsection.3.2.2}%
+\contentsline {paragraph}{\numberline {3.2.2.1}MinIO}{21}{paragraph.3.2.2.1}%
+\contentsline {paragraph}{\numberline {3.2.2.2}OpenSearch}{22}{paragraph.3.2.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Взаимодействие MinIO и OpenSearch}{23}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Выбор модели нейронной сети}{24}{subsubsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.3}Обоснование выбора технологий проектирования и моделей нейронных сетей}{25}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Выбор используемых технологий и языков программирования}{25}{subsubsection.3.3.1}%
+\contentsline {paragraph}{\numberline {3.3.1.1}Python}{25}{paragraph.3.3.1.1}%
+\contentsline {paragraph}{\numberline {3.3.1.2}Flask}{25}{paragraph.3.3.1.2}%
+\contentsline {paragraph}{\numberline {3.3.1.3}React}{26}{paragraph.3.3.1.3}%
+\contentsline {paragraph}{\numberline {3.3.1.4}Material-UI}{26}{paragraph.3.3.1.4}%
+\contentsline {paragraph}{\numberline {3.3.1.5}Haystack}{26}{paragraph.3.3.1.5}%
+\contentsline {paragraph}{\numberline {3.3.1.6}MinIO}{26}{paragraph.3.3.1.6}%
+\contentsline {paragraph}{\numberline {3.3.1.7}OpenSearch}{27}{paragraph.3.3.1.7}%
+\contentsline {subsection}{\numberline {3.4}Проектирование пользовательского интерфейса программной системы}{27}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Макеты пользовательского интерфейса}{27}{subsubsection.3.4.1}%
+\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{30}{section*.8}%

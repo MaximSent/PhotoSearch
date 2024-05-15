@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: 'postgres'
+      POSTGRES_PASSWORD: '11111111'
+      POSTGRES_DB: 'haystack_db'
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    command: >
+      bash -c "apt-get update &&
+               apt-get install -y wget gcc libc-dev &&
+               wget https://github.com/pgvector/pgvector/archive/refs/tags/v0.3.0.tar.gz &&
+               tar -xzvf v0.3.0.tar.gz &&
+               cd pgvector-0.3.0/ &&
+               make &&
+               make install &&
+               echo 'shared_preload_libraries = ''pgvector''' >> /var/lib/postgresql/data/postgresql.conf &&
+               docker-entrypoint.sh postgres"
+volumes:
+  pgdata:
